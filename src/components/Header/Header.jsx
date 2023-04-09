@@ -5,6 +5,7 @@ const Header = () => {
     return (
         <nav className='header'> 
            <h3>Ema-Jhon</h3>
+           
            <div>
            <a href="">Shop</a>
            <a href="">Oeder</a>
