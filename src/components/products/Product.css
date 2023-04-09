@@ -10,7 +10,7 @@
     margin: 50px;
     
     border: 1px solid #95A0A7;
-    border-radius: 5px;
+    border-radius: 9px;
     position: relative;
 }
 
@@ -75,4 +75,7 @@
 
 .cart-btn:hover{
     background-color: salmon;
+}
+.font-awesome{
+    margin-left: 10px;
 }
