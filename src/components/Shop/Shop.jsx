@@ -30,10 +30,12 @@ const Shop = () => {
             // step 3 : get quantity of the product
             const quantity =  storedCart[id];
             saveProducts.quantity = quantity;
+            // step 4 : added products to cart
             savedCart.push(saveProducts)
             console.log(saveProducts)
             }
         }
+        // step 5 : set cart 
         setCart(savedCart)
     }, [products])
 
